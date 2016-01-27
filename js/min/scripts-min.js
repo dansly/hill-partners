@@ -1,0 +1,1 @@
+$(document).ready(function(){svgeezy.init(!1,"png")});

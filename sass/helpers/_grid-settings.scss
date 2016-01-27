@@ -1,0 +1,20 @@
+@import "../vendor/neat/neat-helpers"; // or "neat-helpers" when in Rails
+
+// Change the grid settings
+//$column: 90px;
+//$gutter: 30px;
+$grid-columns: 6;
+$max-width: 100%;
+
+// Define breakpoints
+$bp-xl-desktop: 110em; // 1760px
+$bp-l-desktop: 70em; // 1120px
+$bp-desktop: 50em; // 800px and up
+$bp-tablet: 40em; // 640px and up
+
+
+$bp-xl-desktop-up: new-breakpoint(min-width $bp-xl-desktop 12);
+$bp-l-desktop-up: new-breakpoint(min-width $bp-l-desktop 12);
+$bp-desktop-up: new-breakpoint(min-width $bp-desktop 12);
+$bp-tablet-up: new-breakpoint(min-width $bp-tablet 12);
+$bp-gallery-down: new-breakpoint(max-width $bp-tablet);
