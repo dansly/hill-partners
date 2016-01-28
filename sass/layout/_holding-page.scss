@@ -18,11 +18,12 @@ background: $brand-primary;
     max-width: 800px;
     @include media($bp-tablet-up) {
         float: left;
-        width:55%;
-        width: 55vw;
+        width:45%;
+        width: 45vw;
     }
   @include media($bp-desktop-up) {
-    //@include span-columns(3)
+    width:50%;
+    width: 50vw;
   }
 }
 
@@ -32,14 +33,10 @@ background: $brand-primary;
 
 .lead span {
 font-weight: $font-weight-light;
-font-size:  30px;
-line-height: 0.75;
 margin-top: 10vh;
 display: block;
 @include media($bp-tablet-up) {
-        font-size:  40px;
-line-height: 1.1;
-margin-top: 15vh;
+
     }
 }
 
@@ -48,10 +45,13 @@ font-weight: $font-weight-light;
 font-size:  30px;
 line-height: 1.1;
 display: inline;
-@include media($bp-tablet-up) {
+    @include media($bp-tablet-up) {
+    font-size:  35px;
+    line-height: 1.1;
+    }
+     @include media($bp-desktop-up) {
     font-size:  40px;
     line-height: 1.1;
-
     }
 }
 

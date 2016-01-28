@@ -331,23 +331,20 @@ body {
   @media screen and (min-width: 40em) {
     .lead {
       float: left;
-      width: 55%;
-      width: 55vw; } }
+      width: 45%;
+      width: 45vw; } }
+  @media screen and (min-width: 50em) {
+    .lead {
+      width: 50%;
+      width: 50vw; } }
 
 .lead img {
   width: 100%; }
 
 .lead span {
   font-weight: 200;
-  font-size: 30px;
-  line-height: 0.75;
   margin-top: 10vh;
   display: block; }
-  @media screen and (min-width: 40em) {
-    .lead span {
-      font-size: 40px;
-      line-height: 1.1;
-      margin-top: 15vh; } }
 
 .lead span h1 {
   font-weight: 200;
@@ -355,6 +352,10 @@ body {
   line-height: 1.1;
   display: inline; }
   @media screen and (min-width: 40em) {
+    .lead span h1 {
+      font-size: 35px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 50em) {
     .lead span h1 {
       font-size: 40px;
       line-height: 1.1; } }

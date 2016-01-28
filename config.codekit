@@ -251,38 +251,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/sass\/vendor\/_baseline.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/vendor\/_baseline.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/_baseline.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
-		},
-	"\/sass\/vendor\/_flickity.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/vendor\/_flickity.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/_flickity.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
-		},
 	"\/sass\/vendor\/bourbon\/_bourbon-deprecated-upcoming.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
